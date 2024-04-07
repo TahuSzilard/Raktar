@@ -1,0 +1,13 @@
+CégABC;Váci út 12;élelmiszer;gyümölcsök;trópusi;mangó;3;36;389
+CégABC;Váci út 12;élelmiszer;gyümölcsök;trópusi;alma;1;25;250
+CégABC;Váci út 12;élelmiszer;gyümölcsök;trópusi;kivi;2;30;300
+CégABC;Váci út 12;élelmiszer;gyümölcsök;trópusi;ananász;3;28;280
+CégAZE;Király utca 17/A;élelmiszer;zöldségek;gyökér;zeller;4;40;200
+CégAZE;Király utca 17/A;élelmiszer;zöldségek;gyökér;sárgarépa;5;45;180
+CégAZE;Király utca 17/A;élelmiszer;zöldségek;level;káposzta;6;38;220
+CégDAE;Kormosi út 31;italok;üdítők;üdítő;kóla;7;42;120
+CégDAE;Kormosi út 31;italok;üdítők;üdítő;narancslé;8;48;150
+CégDAE;Kormosi út 31;italok;ásványvíz;ásványvíz;ásványvíz;9;50;100
+CégBCA;Kossuth út 15;élelmiszer;csemegék;csokoládé;csokoládé;10;20;400
+CégBCA;Kossuth út 15;élelmiszer;csemegék;cukorka;cukorka;11;18;350
+CégBCA;Kossuth út 15;élelmiszer;tojásos;tojások;fürjtojás;11;18;350
