@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raktár</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -13,6 +13,9 @@
         <div class="upLoadBt">
             <form action="setupDatabase.php" method="post">
                 <input type="submit" name="upload" value="Adatbázis feltöltése">
+            </form>
+            <form>
+                <button><a href="pdf.php">PDF létrehozása</a></button>
             </form>
         </div>
         <br>
@@ -150,7 +153,7 @@ if(isset($_POST['storeName'])) {
     if ($result->num_rows > 0) {
         echo "<h2>Termékek a(z) $storeName boltban:</h2>";
         echo "<table border='1'>";
-        echo "<tr><th>Termék neve</th><th>Cím</th><th>Állvány neve</th><th>Oszlop neve</th><th>Sor neve</th><th>Bolt neve</th><th>Minimális mennyiség</th><th>Jelenlegi mennyiség</th><th>Ár</th><th>Törlés</th><th>Módosítás</th><th>Kevés termék</th></tr>";
+        echo "<tr><th>Termék neve</th><th>Cím</th><th>Polc</th><th>Oszlop</th><th>Sor</th><th>Bolt</th><th>Minimális mennyiség</th><th>Jelenlegi mennyiség</th><th>Ár</th><th>Törlés</th><th>Módosítás</th><th>Kevés termék</th></tr>";
         while($row = $result->fetch_assoc()) {
             echo "<tr>";
             echo "<td>".$row["product_name"]."</td>";
