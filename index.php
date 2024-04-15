@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raktár</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -16,6 +16,9 @@
             </form>
             <form>
                 <button><a href="pdf.php">PDF létrehozása</a></button>
+            </form>
+            <form action="mail.php" method="post">
+                <input type="submit" name="sendEmail" value="Email küldése">
             </form>
         </div>
         <br>
